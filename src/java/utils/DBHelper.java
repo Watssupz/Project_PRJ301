@@ -22,7 +22,7 @@ public class DBHelper implements Serializable{
                 + "//localhost:1433"
                 + ";databaseName=Assignment_PRJ301";
         //3. Open Connection
-        Connection con=DriverManager.getConnection(url,"sa","123");
+        Connection con=DriverManager.getConnection(url,"sa","duong1");
         return con;
     }
 }
